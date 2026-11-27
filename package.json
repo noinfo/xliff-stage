@@ -1,0 +1,21 @@
+{
+  "name": "xliff-stage",
+  "version": "1.0.0",
+  "description": "Stage only the XLIFF translation units whose i18n IDs appear in your branch's changes",
+  "type": "module",
+  "bin": {
+    "xliff-stage": "./xliff-stage.mjs"
+  },
+  "exports": "./xliff-stage.mjs",
+  "files": [
+    "xliff-stage.mjs"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "test:python": "cd python && python3 -m unittest discover -s tests"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": ["xliff", "i18n", "angular", "git", "translation"]
+}
